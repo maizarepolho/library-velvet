@@ -1,4 +1,4 @@
-ocument.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.querySelector('.search-bar input');
    
     if (searchInput) {
