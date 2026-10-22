@@ -4,64 +4,64 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-body {
-    background-color: #f7b2e0; /* Fundo rosa principal */
+body{
+    background-color:  #f7b2e0; /* fundo rosa */
     color: #333;
 }
 
 .site-container {
     display: flex;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
-}
 
-/* Conteúdo Principal */
+}
 .main-content {
     flex: 3;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+
 }
 
-/* Header */
-.header {
+.hearder{
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.logo img {
+.logo img{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #fff;
+
 }
 
 .search-bar {
-    background-color: #a83fa7;
+    background-color:  #a83fa7;
     border-radius: 20px;
     padding: 8px 15px;
     display: flex;
     align-items: center;
     gap: 10px;
     flex: 1;
+
 }
 
-.search-bar input {
+.search-bar input{
     border: none;
     background: transparent;
     color: white;
     outline: none;
     width: 100%;
+
 }
 
-.search-bar input::placeholder {
+.search-bar input::placeholder{
     color: #e0d0e0;
 }
 
-.search-bar i {
+.search-bar i{
     color: white;
 }
 
@@ -87,9 +87,10 @@ body {
     cursor: pointer;
     font-size: 1.2rem;
 }
-
+ 
 .cart-btn { background-color: #e65287; color: white; }
 .star-btn { background-color: #fce879; color: #e65287; }
+
 
 /* Banner Promocional */
 .banner {
@@ -103,19 +104,23 @@ body {
     font-weight: bold;
 }
 
+
 /* Estrutura de Linhas e Caixas */
 .row {
     display: flex;
     gap: 20px;
 }
 
+
 .flex-1 { flex: 1; }
 .flex-3 { flex: 3; }
+
 
 .card-section {
     padding: 15px;
     border-radius: 12px;
 }
+
 
 .purple-box {
     background-color: #7b1fa2;
@@ -126,6 +131,7 @@ body {
     background-color: #c2185b;
     color: white;
 }
+
 
 .books-carousel {
     display: flex;
@@ -140,6 +146,7 @@ body {
     align-items: center;
 }
 
+
 /* --- ALTERAÇÕES DAS CAPAS DAS IMAGENS --- */
 .book-card .cover {
     width: 110px;        /* Aumentado para preencher a caixa */
@@ -149,6 +156,7 @@ body {
     margin-bottom: 5px;
     overflow: hidden;    /* Corta a imagem se passar da borda */
 }
+
 
 /* Faz a imagem ocupar todo o espaço sem distorcer */
 .book-card .cover img {
@@ -178,6 +186,7 @@ body {
     align-items: center;
 }
 
+
 .pills {
     display: flex;
     flex-direction: column;
@@ -194,12 +203,14 @@ body {
     font-size: 0.9rem;
 }
 
+
 .see-more {
     color: black;
     text-decoration: none;
     font-weight: bold;
     margin-top: auto;
 }
+
 
 .see-more-inline {
     font-size: 0.8rem;
@@ -215,6 +226,7 @@ body {
     margin: 10px 0;
 }
 
+
 .yellow-box ul {
     list-style: none;
 }
@@ -225,6 +237,7 @@ body {
     align-items: center;
 }
 
+
 .social-icons {
     display: flex;
     gap: 15px;
@@ -232,7 +245,9 @@ body {
     margin-top: 10px;
 }
 
+
 .social-icons a { color: #e65287; }
+
 
 /* Barra Lateral */
 .sidebar {
@@ -244,14 +259,17 @@ body {
     min-height: 100vh;
 }
 
+
 .sidebar-menu ul {
     list-style: none;
     padding: 30px;
 }
 
+
 .sidebar-menu li {
     margin-bottom: 15px;
 }
+
 
 .sidebar-menu a {
     text-decoration: none;
@@ -259,20 +277,24 @@ body {
     font-size: 1.1rem;
 }
 
+
 .sidebar-banner {
     background-color: #fff;
     height: 300px;
     margin: 0 15px;
 }
 
+
 .sidebar-footer {
     background-color: #880e4f;
     padding: 20px;
 }
 
+
 .sidebar-footer ul {
     list-style: none;
 }
+
 
 .sidebar-footer a {
     color: white;
@@ -280,3 +302,7 @@ body {
     display: block;
     margin-bottom: 10px;
 }
+
+
+
+
