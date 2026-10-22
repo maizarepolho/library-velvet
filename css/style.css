@@ -132,12 +132,13 @@ body{
     color: white;
 }
 
-
+/* Organiza os cards lado a lado na horizontal */
 .books-carousel {
     display: flex;
-    gap: 12px;
+    flex-direction: row;
     align-items: center;
-    margin-top: 10px;
+    gap: 15px;
+    margin-top: 15px;
 }
 
 .book-card {
@@ -146,24 +147,28 @@ body{
     align-items: center;
 }
 
-
-/* --- ALTERAÇÕES DAS CAPAS DAS IMAGENS --- */
+/* Controla o tamanho exato do retângulo da capa */
 .book-card .cover {
-    width: 110px;        /* Aumentado para preencher a caixa */
-    height: 160px;       /* Altura proporcional de capa de livro */
-    background-color: #fff;
+    width: 120px;
+    height: 170px;
     border-radius: 4px;
-    margin-bottom: 5px;
-    overflow: hidden;    /* Corta a imagem se passar da borda */
+    overflow: hidden;
+    margin-bottom: 8px;
 }
 
-
-/* Faz a imagem ocupar todo o espaço sem distorcer */
+/* Força a imagem a preencher a caixa sem quebrar nem esticar */
 .book-card .cover img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+/* Preço centralizado abaixo da imagem */
+.book-card span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
 }
 
 .next-btn {
