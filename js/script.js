@@ -14,7 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
+
+
     const nextButtons = document.querySelectorAll('.next-btn');
+
+
 
 
     nextButtons.forEach((btn) => {
@@ -29,8 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
+
+
     const btnEntrar = document.querySelectorAll('.btn-yellow')[0];
     const btnCriarConta = document.querySelectorAll('.btn-yellow')[1];
+
+
 
 
     if (btnEntrar) {
@@ -40,6 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
+
+
     if (btnCriarConta) {
         btnCriarConta.addEventListener('click', () => {
             alert('Abrir tela de cadastro');
@@ -47,7 +57,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
+
+
     const pills = document.querySelectorAll('.pill, .yellow-box li');
+
+
 
 
     pills.forEach((item) => {
@@ -59,8 +73,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
+
+
     const cartBtn = document.querySelector('.cart-btn');
     const starBtn = document.querySelector('.star-btn');
+
+
 
 
     if (cartBtn) {
@@ -70,11 +88,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
+
+
     if (starBtn) {
         starBtn.addEventListener('click', () => {
             alert('Abrindo lista de favoritos...');
         });
     }
+
+
 
 
 });
